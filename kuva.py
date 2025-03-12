@@ -38,7 +38,7 @@ title.pack(fill=tkinter.X)
 Subtitle=tkinter.Label(screen,text="Enter the roll number of your riven", font=("Arial",11), border=20)
 Subtitle.pack()
 
-exit_button=tkinter.Button(screen, text="Exit", padx=50, pady=10, command = quit)
+exit_button=tkinter.Button(screen, text="Exit", padx=50, pady=10, command = screen.quit)
 exit_button.pack(side=BOTTOM, pady=5)
 
 EntryRolls=tkinter.Entry(screen, font=("",15))
